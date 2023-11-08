@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Analytix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    
+    /* Main container */
+    .main-page {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      font-family: "Source Sans Pro", arial, sans-serif;
+    }
+    
+    /* Video section */
+    .vid {
+      width: 460px;
+      height: 320px;
+      margin-right: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    /* Content section */
+    .cont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+    
+    /* Content section - Title */
+    .cont h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    
+    /* Content section - Paragraph */
+    .soder {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+    
+    /* Notes section */
+    .notes {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Navigation buttons */
+    .nav-btns {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+    
+    .nav-btn {
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .nav-btn:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Start Test button */
+    #start {
+      font-size: 16px;
+      padding: 14px 30px;
+      background-color: #ff4081;
+      color: #fff;
+      border: none;
+
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    #start:hover {
+      background-color: #c60055;
+    }
+  </style>
+</head>
+    <body>
+
+      <header role="banner">
+     
+        <nav class="navbar navbar-expand-md navbar-dark bg-light">
+          <div class="container">
+            <a class="navbar-brand absolute" href="index.html">Analytix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="courses.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Courses</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="courses.html">FrontEnd</a>
+                    <a class="dropdown-item" href="courses.html">BackEnd</a>
+                    <a class="dropdown-item" href="courses.html">3D Modeling</a>
+                    <a class="dropdown-item" href="courses.html">DataBase Management System</a>
+                    <a class="dropdown-item" href="courses.html">Hacking Lab</a>
+                    <a class="dropdown-item" href="courses.html">Machine learning</a>
+                    <a class="dropdown-item" href="courses.html">Advanced programming</a>
+                  </div>
+  
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href="courses.html">FrontEnd</a>
+                    <a class="dropdown-item" href="courses.html">BackEnd</a>
+                    <a class="dropdown-item" href="courses.html">3D Modeling</a>
+                    <a class="dropdown-item" href="courses.html">DataBase Management System</a>
+                    <a class="dropdown-item" href="courses.html">Hacking Lab</a>
+                    <a class="dropdown-item" href="courses.html">Machine learning</a>
+                    <a class="dropdown-item" href="courses.html">Advanced programming</a>
+                  </div>
+  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Book a session</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav absolute-right">
+                <li class="nav-item">
+                  <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a href="register.html" class="nav-link">Register</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--    -->
+
+
+      <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(imgback/algorithm.jpeg);">
+        <div class="container">
+          <div class="row align-items-center site-hero-inner justify-content-center">
+            <div class="col-md-12">
+  
+              <div class="mb-5 element-animate">
+                <div class="row align-items-center">
+                  <div class="col-md-8">
+                    <h1 class="mb-0">Algorithms and Data Structures</h1>
+                    <p>By Torekhan Biken</p>
+                    <p class="lead mb-5">Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way. This tutorial will give you a great understanding on Data Structures needed to understand the complexity of enterprise level applications and need of algorithms, and data structures.</p>
+                    
+                    <p><a href="#series" class="btn btn-primary mr-2" onclick="movePageDown()">Start Series</a></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="img/AlgorithmsandDataStructures.png" alt="Image placeholder" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+  
+              
+  
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        function movePageDown() {
+              window.scrollBy({
+                  top: 830,
+                  left: 0,
+                  behavior: 'smooth'
+              });
+          }
+      </script>
+
+      <!---->
+
+      <div class="main-page" name="series">
+        <div style="display: flex; height: 380px;">
+          <div class="vid">
+            <iframe width="460" height="320" src="https://www.youtube.com/embed/6Pw3sf0lWME" title="Algorithms and Data Structures 1.5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="cont">
+            <h1 style="font-family: Source Sans Pro, arial, sans-serif;">Content of a Video</h1>
+            <div class="soder">
+              <h5 style="margin: 2%; text-decoration: underline; font-family: Source Sans Pro, arial, sans-serif;">Big O notation used to describe the growth rate of functions. It is commonly used in computer science to analyze the time complexity 
+      of algorithms and determine how fast they perform when plotting input sizes.</h5>
+      <br>
+      <h5 style="font-family: Source Sans Pro", arial, sans-serif;>1. boolean empty() – Returns whether the stack is empty <br>
+        Time Complexity: O(1) <br>
+        2. int size() – Returns the size of the stack <br>
+        Time Complexity: O(1) <br>
+        3. T peek() – Returns a reference to the topmost element of the stack <br>
+        Time Complexity: O(1) <br>
+        4. T push(T) – Adds the element at the top of the stack <br>
+        Time Complexity: O(1) <br>
+      </h5>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h2 style="color: white; margin-left: 180px; margin-bottom: 20px;">Your notes here:</h2>
+</div>
+
+<div style="display: flex;">
+  <div style="border-radius: 100px;">
+    <form action="/action_page.php" style="margin-right: 150px;">
+      <textarea id="myTextarea" rows="10" cols="60" style="background-color: white; margin-right: 10px;"></textarea>
+      <br><br>
+      <button id="saveButton" class="btn btn-primary">Save as Text File</button>
+      <input style="display: none; height: 20px; width: 40px; text-align: center;">
+    </form>
+  </div>
+  <div>
+    <p><a href="#" class="btn btn-primary mr-2">Previous Lesson</a></p>
+  </div>
+  
+  <div>
+    <p><a href="#" class="btn btn-primary mr-2">Next Lesson</a></p>
+  </div>
+  
+  <div>
+    <p><a href="#" class="btn btn-primary mr-2" id="start" class="btn1" >Start Test</a></p>
+  </div>
+  </div>
+
+</div>
+<div id="result-container"></div>
+<div id="review-container"></div>
+<script>
+  document.getElementById("saveButton").addEventListener("click", function() {
+    var textareaContent = document.getElementById("myTextarea").value;
+    var blob = new Blob([textareaContent], { type: "text/plain" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "content.txt";
+    a.click();
+  });
+</script>
+
+          <footer class="site-footer" style="background-image: url(images/big_image_3.jpg); margin-top: 40px;">
+            <div class="container">
+              <div class="row mb-5">
+                <div class="col-md-4">
+                  <h3>About</h3>
+                  <p>The best E-learning platform of recent years.</p>
+                  <p>Kazakhstan, Astana, AITU, 667</p>
+                </div>
+                <div class="col-md-6 ml-auto">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Categories</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              </div>
+            </div>
+          </footer>
+
+ <script src="js/java.js"></script>
+ <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+ <script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/jquery-migrate-3.0.0.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/owl.carousel.min.js"></script>
+ <script src="js/jquery.waypoints.min.js"></script>
+ <script src="js/jquery.stellar.min.js"></script>
+
+ 
+ <script src="js/main.js"></script>
+ 
+</body>
+   
+</html>
